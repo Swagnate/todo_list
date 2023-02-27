@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: centre;
+  gap:  15px;
+}
+
+.post {
+  flex-direction: column;
+  background-color: #08D9D6; 
+  border-radius: 15px;
+  width: 33%;
+  margin: 15 px;  
+  padding: 15px;
+}
+.post__btn {
+  border-radius: 15px;
+  width: auto;
+ 
+}
+.post__title {
+  color: #9966CC;
+}
